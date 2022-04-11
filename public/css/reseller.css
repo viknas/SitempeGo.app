@@ -1,49 +1,51 @@
 .content{
+    margin-top: 20px;
     margin-left: 30px;
-    margin-top: 25px;
 }
-.sub-judul{
-    margin-bottom: 10px;
+.form{
+    height: 80vh;
+    width: auto;
+    background: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
 }
-.height {
-    height: 100vh
+.search{
+    margin-top: 10px;
+    width: 40%;
+    border-radius: 30px;
 }
-
-.form {
-    position: relative
-}
-
-.form .fa-search {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    color: #9ca3af
-}
-
-.form span {
-    position: absolute;
-    right: 17px;
-    top: 13px;
-    padding: 2px;
-    border-left: 1px solid #d1d5db
-}
-
-.left-pan {
-    padding-left: 7px
-}
-
-.left-pan i {
-    padding-left: 10px
-}
-
-.form-input {
-    width: 550px;
+.form-control{
+    background: #ECECEC;
     height: 50px;
-    text-indent: 33px;
-    border-radius: 10px
+    width: 391px;
+}
+.icon-tambah{
+    display: flex;
+    display: inline;
+}
+.btn{
+    border-radius: 50%;
+}
+table{
+    border-color: antiquewhite;
+    border-collapse: collapse;
+    width: 97%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+th {
+    background-color: #A1A1A1;
+}
+tr:hover {background-color: #f5f5f5;
+}
+nav{
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
 }
 
-.form-input:focus {
-    box-shadow: none;
-    border: none
-}
