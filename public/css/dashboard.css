@@ -1,0 +1,42 @@
+.col{
+    height: 225px;
+    width: 500px;
+    display: inline-block;
+    margin: 50px;
+}
+.harga1, .harga2, .harga3, .harga4{
+    width: 100%;
+    height: 131px;
+    padding: 35px;
+}
+
+
+.mHari, .mBulan, .lHari, .lBulan{
+    width: 100%;
+    height: 94px;
+    padding: 35px;
+}
+.mHari{
+    background: #6AC576;
+}
+.mBulan{
+    background: #73BCC1;
+}
+.lHari{
+    background: #BD964A;
+}
+.lBulan{
+    background: #BD5F4A;
+}
+.harga1{
+    background: #87E593;
+}
+.harga2{
+    background: #87DFE5;
+}
+.harga3{
+    background: #DCAE55;
+}
+.harga4{
+    background: #DC6D55;
+}
